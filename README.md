@@ -15,3 +15,21 @@ The repository is organized into targeted learning modules:
 * Build a robust base for Data Science, Machine Learning, and AI tools.
 * Maintain a consistent daily coding and version control habit.
 
+## 🛠️ Tools & Environment
+
+* **Language:** Python 3.x
+* **IDE:** PyCharm (Configured for daily commits and project management)
+
+## 🚀 Getting Started
+
+To run these scripts locally on your machine:
+
+1.  Clone this repository:
+    ```bash
+    git clone [https://github.com/lakshay-shukla/Python.git](https://github.com/lakshay-shukla/Python.git)
+    ```
+2.  Open the cloned directory in **PyCharm**.
+3.  Navigate to the respective folders and run the individual `.py` files to see the output.
+
+---
+*Documenting the journey from B.Tech to Data Science.*
