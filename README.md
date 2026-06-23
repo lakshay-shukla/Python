@@ -1,6 +1,6 @@
 # Python Foundations 🐍
 
-Welcome to my Python learning Repository! This space is dedicated to tracking my daily coding progress as I build a strong foundation in programming. This is step one of my intensive 3-month Zero-to-One journey towards becoming a Data Scientist and Data Analyst.
+Welcome to my Python learning repository! This space is dedicated to tracking my daily coding progress as I build a strong foundation in programming. This is step one of my intensive 3-month Zero-to-One journey towards becoming a Data Scientist and Data Analyst.
 
 ## 📂 Repository Structure
 
