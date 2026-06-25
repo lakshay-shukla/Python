@@ -16,4 +16,4 @@ while number > 0:
     last_digit = number % 10
     digit_sum += last_digit
     number = number // 10
-print("Sum of digits",digit_sum)
+print("Sum of Digits",digit_sum)
