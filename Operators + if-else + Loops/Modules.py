@@ -1,6 +1,7 @@
 #1. math --> Gives you access to advanced mathematical functions and constants. like find square root, square , LCM
 import math
 print(math.sqrt(196))
+print(math.pow(3, 4))
 #2. keywords --> Its help you check, track, and list python's reserved keywords
 import keyword
 print(keyword.kwlist)
