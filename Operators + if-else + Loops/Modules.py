@@ -3,6 +3,7 @@ import math
 print(math.sqrt(196))
 print(math.pow(3, 4))
 print(math.factorial(4))
+print(math.log(100, 10))  #math.log(x, [base])
 #2. keywords --> Its help you check, track, and list python's reserved keywords
 import keyword
 print(keyword.kwlist)
