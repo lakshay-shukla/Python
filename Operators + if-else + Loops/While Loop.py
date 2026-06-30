@@ -17,3 +17,11 @@ while number > 0:
     digit_sum += last_digit
     number = number // 10
 print("Sum of digits",digit_sum)
+
+# while loop with else
+x = 1
+while x < 3:
+  print(x)
+  x += 1
+else:
+  print('limit crossed')
