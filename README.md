@@ -18,7 +18,7 @@ The repository is organized into targeted learning modules:
 ## 🛠️ Tools & Environment
 
 * **Language:** Python 3.x
-* **IDE:** PyCharm (Configured for daily commits and project management)
+* **IDE:** PyCharm (Configured for daily commits and project management).
 
 ## 🚀 Getting Started
 

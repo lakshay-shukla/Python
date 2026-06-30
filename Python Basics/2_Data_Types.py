@@ -25,7 +25,7 @@ print([1,2,3,4,5])
 print((1,2,3,4,5))
 
 #8 Sets
-print({1,2,3,4,5})
+print({1,2,3,4,5,6})
 
 #9 Dictionary (key value pairs)
 print({'name':'Lakshay','gender':'Male','weight':70})
