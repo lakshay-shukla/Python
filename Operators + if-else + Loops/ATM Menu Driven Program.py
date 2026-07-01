@@ -1,4 +1,4 @@
-# 2. Menu Driven Program
+# Menu Driven Program
 Pin = int(input('Enter your Pin: '))
 
 if Pin == 1234:
