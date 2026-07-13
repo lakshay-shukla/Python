@@ -43,3 +43,22 @@ for i in range(1,4):
   for j in range(1,4):
     for k in range(1,4):
       print(str(i)+ str(j) + str(k))
+
+
+# 6. According to a study, the approximate level of intelligence of a person can be calculated using the following formula:
+#  i = 2 + (y + 0.5x)
+#  Write a program which will produce a table of values of i, y and x, where y varies from 1 to 6 , and, for each value of y, x varies from 5.5 to 12.5 in steps of 0.5.
+for y in range(1,7):
+  x =  5
+  while x < 12.5:
+    x = x + 0.5
+    i = 2 + (y + 0.5*x)
+    print(f"y = {y} | x = {x} | i = {i}")
+
+
+# 7. print table in the format of 29 * 1 = 29.
+n = int(input("Enter a number: "))
+for i in range(1,11):
+  table = n * i
+  print(f"{n} * {i} = {table}")
+    
