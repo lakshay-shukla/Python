@@ -8,6 +8,8 @@ The repository is organized into targeted learning modules:
 
 * **`Python Basics/`**: The starting point. Contains introductory code snippets, "Hello World" scripts, and basic syntax exercises that I push regularly.
 * **`Operators + if-else + Loops/`**: Practical implementations of core logic. Includes scripts focusing on mathematical/logical operators, control flow, and iterative statements.
+* * `Strings/`: Dedicated to string manipulation, text formatting, slicing, and exploring built-in string methods.
+* `Lists/`: Covers creating lists, indexing, slicing, and using various list operations and methods.
 
 ## 🎯 Learning Objectives
 
