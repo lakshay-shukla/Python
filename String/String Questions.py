@@ -26,3 +26,46 @@ for i in s:
   if i != term:
     result = result + i
 print(result)
+
+#5. Write a program that can check whether a given string is palindrome or not.
+# abba
+# malayalam
+s = input('enter the string')
+flag = True
+for i in range(0,len(s)//2):
+  if s[i] != s[len(s) - i -1]:
+    flag = False
+    print('Not a Palindrome')
+    break
+if flag:
+  print('Palindrome')
+
+#6. Write a program to count the number of words in a string without split()
+s = input('enter the string')
+L = []
+temp = ''
+for i in s:
+  if i != ' ':
+    temp = temp + i
+  else:
+    L.append(temp)
+    temp = ''
+L.append(temp)
+print(L)
+
+#7. Write a python program to convert a string to title case without using the title()
+s = input('enter the string')
+L = []
+for i in s.split():
+  L.append(i[0].upper() + i[1:].lower())
+print(" ".join(L))
+
+#8. Write a program that can convert an integer to string.
+number = int(input('enter the number'))
+digits = '0123456789'
+result = ''
+while number != 0:
+  result = digits[number % 10] + result
+  number = number//10
+print(result)
+print(type(result))
