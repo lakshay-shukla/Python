@@ -17,7 +17,7 @@ print(s)
 
 #A. Positive Indexing
 s = 'hello world'
-print(s[1])
+print(s[2])
 
 #B. Negative Indexing
 s = 'hello world'
