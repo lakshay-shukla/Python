@@ -35,3 +35,30 @@ for x in L:
         pos = L.index(3)
         L[pos] = 300
 print(L)
+
+# Example 5. Write a program that can convert a 2D list to 1D list.
+matrix = [
+[1, 2, 3],
+[4, 5, 6],
+[7, 8, 9]
+]
+new_matrix = [ ]
+for i in matrix:
+    new_matrix.extend(i)
+print(new_matrix)
+
+# Example 6. Write a program to check if a list is in ascending order or not.
+num_li = list(map(int, input("enter a list: ").split()))
+sorted_li = sorted(num_li)
+if num_li == sorted(num_li):
+    print("List is in ascending order")
+else:
+    print("List is not in ascending order")
+
+# Example 7. Write a program to remove duplicate items from a list
+L = [1,2,1,2,3,4,5,3,4]
+L2 = [ ]
+for i in L:
+    if i not in L2:
+        L2.append(i)
+print("Unique List",L2)
