@@ -10,6 +10,8 @@ The repository is organized into targeted learning modules:
 * **`Operators + if-else + Loops/`**: Practical implementations of core logic. Includes scripts focusing on mathematical/logical operators, control flow, and iterative statements.
 * * `Strings/`: Dedicated to string manipulation, text formatting, slicing, and exploring built-in string methods.
 * `Lists/`: Covers creating lists, indexing, slicing, and using various list operations and methods.
+* `Tuples/`: Focuses on immutable sequences, tuple packing/unpacking, and their specific use cases.
+* `Sets/`: Covers unordered collections, removing duplicates, and mathematical set operations like union and intersection.
 
 ## 🎯 Learning Objectives
 
