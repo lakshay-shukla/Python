@@ -12,6 +12,7 @@ The repository is organized into targeted learning modules:
 * `Lists/`: Covers creating lists, indexing, slicing, and using various list operations and methods.
 * `Tuples/`: Focuses on immutable sequences, tuple packing/unpacking, and their specific use cases.
 * `Sets/`: Covers unordered collections, removing duplicates, and mathematical set operations like union and intersection.
+*  `Dictionaries/`: Dedicated to storing data in key-value pairs, accessing data efficiently, and using built-in dictionary methods.
 
 ## 🎯 Learning Objectives
 
