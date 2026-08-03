@@ -26,4 +26,35 @@ print(t5)   #  (1, 2, 3, (4, 5))
 t6 = tuple('hello')
 print(t6)  # ('h', 'e', 'l', 'l', 'o')
 
-#2. 
+#2. Accessing Items
+# Indexing
+t3 = (1,2,3,4)
+print(t3[0])
+print(t3[-1])
+# Slicing
+t5 = (1,2,3,(4,5))
+print(t5[-1][0])
+t = (1,2,3,4,5)
+print(t[-1:-4:-1])
+
+#3. Editing items --> Not possible because of immutable nature of tuble just like strings.
+
+#4. Adding items --> Not possible because of immutable nature of tuble just like strings.
+
+#5. Deleting items
+t3 = (1,2,3,4)
+print(t3)
+del t3
+print(t3)
+
+#6. Operations on Tuples
+# + and *
+t1 = (1,2,3,4)
+t2 = (5,6,7,8)
+print(t1 + t2)
+print(t1*3)
+# membership
+print(1 in t1)
+# iteration
+for i in t1:
+  print(i)
