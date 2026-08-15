@@ -77,7 +77,7 @@ print(x(3))  # 9
 
 #3. deleting a function
 del square
-square(5)  # NameError: name 'square' is not defined
+square(6)  # NameError: name 'square' is not defined
 
 #4. returning a function
 def f():
