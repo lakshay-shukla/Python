@@ -26,3 +26,21 @@ for i in data:
         print('Missing Data')
     else:
         print('Valid Data: ', [i])
+
+# Q4: Custom Functions
+# Create a function named 'apply_discount(price, discount_percent)'.
+# The function should calculate and return the final discounted price.
+def apply_discount(price, discount_percent):
+    return price * (1 - discount_percent / 100)
+
+print(apply_discount(1000, 10))
+
+# Q5: Lambda and Map Functions
+# Write a lambda function that returns the square of a number.
+# Use the map() function to apply this lambda function to the list nums = [2, 4, 6, 8]
+# and print the resulting new list.
+A = lambda x: x ** 2
+num = [2, 4, 6, 8]
+print(A(5))
+R = list(map(lambda x: x ** 2, num))
+print(R)
